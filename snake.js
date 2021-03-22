@@ -21,7 +21,7 @@ function Snake() {
         this.xspeed = x;
         this.yspeed = y;
     }
-
+// eating food
     this.update = function() {
         for (var i=0;i < this.tail.length -1; i++) {
             this.tail[i] = this.tail[i+1];
